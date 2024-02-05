@@ -28,8 +28,8 @@ for i in values:
 print(values[0])
 print(values[6])
 
-x = 
-y= x.split( )
+x = 1
+y= x.split()
 z = y[0]
 print(y)
 print(z)
