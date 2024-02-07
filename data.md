@@ -106,4 +106,3 @@ Create a function that accepts an input and determines all factors of the number
 ## Challenge 
 
 Create a function that accepts 2 arguments. Find the greatest common factor between those numbers. 
-

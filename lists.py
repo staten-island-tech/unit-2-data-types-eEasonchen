@@ -1,4 +1,4 @@
-animals = ["Zebra", "Camel", "Ape"]
+""" animals = ["Zebra", "Camel", "Ape"] """
 """ print(animals[0]) """
 """ for animal in animals:
     print(animal) """
@@ -24,12 +24,6 @@ print(len(words_list))
 
 
 
-num = int(input("number: "))
-if (num % 2)  == 0:
-    print('even')
-else: 
-    print('odd')
-
 """ service = input("service was:")
 if service == "bad":
     print("0% tip")
@@ -44,8 +38,35 @@ elif service == "great":
 if(int(x) == ["2","4","6","8","10"]):
     print("even") """
 
-""" number = int(input("two numbers: "))
-print("Factors: " .format(number))
+
+""" num = int(input("number: "))
+if (num % 2)  == 0:
+    print('even')
+else: 
+    print('odd') """
+
+
+number = int(input("number1: "))
+number2 = int(input("number2: "))
+
+""" print("Factors1: " .format(number))
 for i in range(1, number + 1):
     if(number % i == 0):
+        print (i)
+
+print("Factors2: " .format(number2))
+for i in range(1, number2 + 1):
+    if(number2 % i == 0):
         print (i) """
+
+def gcf(x,y):
+    if x > y:
+        smaller = y
+    else:
+        smaller = x
+    for i in range(1, smaller +1):
+        if (x % i == 0) and (y % i == 0):
+            gcf = i
+    return gcf
+
+print("GCF:", gcf(number, number2))
