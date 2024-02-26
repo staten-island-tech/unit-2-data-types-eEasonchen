@@ -53,12 +53,12 @@ number2 = int(input("number2: "))
 for i in range(1, number + 1):
     if(number % i == 0):
         print (i)
-
-print("Factors2: " .format(number2))
+ """
+""" print("Factors2: " .format(number2))
 for i in range(1, number2 + 1):
     if(number2 % i == 0):
-        print (i) """
-
+        print (i)
+ """
 def gcf(x,y):
     if x > y:
         smaller = y
